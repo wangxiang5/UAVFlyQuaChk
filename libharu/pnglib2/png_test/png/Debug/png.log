@@ -1,0 +1,92 @@
+﻿生成启动时间为 2016/8/19 22:09:48。
+     1>项目“C:\Users\mld\Desktop\rs15\libharu\pnglib2\png_test\png\png.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\png.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“.\Debug\png.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../pnglib /I../zlib/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt PngFile.c VisualPng.c
+         VisualPng.c
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(109): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(113): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(183): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(189): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(538): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(539): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(541): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(543): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(572): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(573): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(595): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(596): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(597): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(633): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(645): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\visualpng.c(688): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         PngFile.c
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\pngfile.c(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\mld\desktop\rs15\libharu\pnglib2\png_test\png\pngfile.c(311): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0804" /nologo /fo".\Debug\VisualPng.res" VisualPng.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\png.exe.embed.manifest.res" .\Debug\png_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\png.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\png.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mld\Desktop\rs15\libharu\pnglib2\png_test\png\Debug\png.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\png.lib" /MACHINE:X86 .\Debug\VisualPng.res
+         .\Debug\png.exe.embed.manifest.res
+         .\Debug\PngFile.obj
+         .\Debug\VisualPng.obj
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_read_end，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_read_image，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_error，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_get_channels，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_get_rowbytes，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_read_update_info，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_set_gamma，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_get_gAMA，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_set_background，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_get_bKGD，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_set_gray_to_rgb，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_get_valid，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_set_expand，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_get_IHDR，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_read_info，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_set_sig_bytes，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_init_io，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_destroy_read_struct，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_create_info_struct，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_create_read_struct，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_sig_cmp，该符号在函数 _PngLoadImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_write_end，该符号在函数 _PngSaveImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_write_image，该符号在函数 _PngSaveImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_set_bgr，该符号在函数 _PngSaveImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_write_info，该符号在函数 _PngSaveImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_set_IHDR，该符号在函数 _PngSaveImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_destroy_write_struct，该符号在函数 _PngSaveImage 中被引用
+     1>PngFile.obj : error LNK2019: 无法解析的外部符号 _png_create_write_struct，该符号在函数 _PngSaveImage 中被引用
+     1>.\Debug\png.exe : fatal error LNK1120: 28 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\mld\Desktop\rs15\libharu\pnglib2\png_test\png\png.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.50

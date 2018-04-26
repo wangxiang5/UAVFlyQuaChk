@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8A5C3C3-21A6-493C-BAE0-651DC593A880}</ProjectGuid>
+    <RootNamespace>sswUAVFlyQuaSys</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>SkyPhoto-QC</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>SkyPhoto-QC</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>SkyPhoto-QC</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>SkyPhoto-QC</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\$(Platform)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sswImage.lib;glew32.lib;gdal_i.lib;pdflib.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\$(Platform)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sswImage.lib;glew32.lib;gdal_i.lib;pdflib.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\$(Platform)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;gdal_i.lib;pdflib.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\$(Platform)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gdal_i.lib;glew32.lib;pugixml.lib;sswUAVFlyQua.lib;sswPDFLib.lib</AdditionalDependencies>
+      <ImportLibrary>
+      </ImportLibrary>
+      <StackReserveSize>10000000</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="information.txt" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\bmp.bmp" />
+    <None Include="res\bmp_large_button.bmp" />
+    <None Include="res\bmp_small_button.bmp" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\DlgBk.bmp" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\logo.bmp" />
+    <None Include="res\main.bmp" />
+    <None Include="res\MainFrame.bmp" />
+    <None Include="res\nav_large.bmp" />
+    <None Include="res\nav_large_hc.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\pages.bmp" />
+    <None Include="res\pages_hc.bmp" />
+    <None Include="res\pages_small.bmp" />
+    <None Include="res\pages_small_hc.bmp" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\setting.ico" />
+    <None Include="res\sswUAVFlyQuaSys.ico" />
+    <None Include="res\sswUAVFlyQuaSys.rc2" />
+    <None Include="res\sswUAVFlyQuaSysDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\VE_SIZEB.CUR" />
+    <None Include="res\VE_SPLIT.CUR" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writesmall.bmp" />
+    <None Include="ssw_information.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChartAxis.h" />
+    <ClInclude Include="ChartAxisLabel.h" />
+    <ClInclude Include="ChartBarSerie.h" />
+    <ClInclude Include="ChartCtrl.h" />
+    <ClInclude Include="ChartGradient.h" />
+    <ClInclude Include="ChartGrid.h" />
+    <ClInclude Include="ChartLegend.h" />
+    <ClInclude Include="ChartLineSerie.h" />
+    <ClInclude Include="ChartObject.h" />
+    <ClInclude Include="ChartPointsSerie.h" />
+    <ClInclude Include="ChartScrollBar.h" />
+    <ClInclude Include="ChartSerie.h" />
+    <ClInclude Include="ChartString.h" />
+    <ClInclude Include="ChartSurfaceSerie.h" />
+    <ClInclude Include="ChartTitle.h" />
+    <ClInclude Include="CoorConv.hpp" />
+    <ClInclude Include="DataChartWnd.h" />
+    <ClInclude Include="GradientProgressCtrl.h" />
+    <ClInclude Include="ImgViewDlg.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MyCreateFlyQuaPrj4ParaFile.h" />
+    <ClInclude Include="MyFunctions.h" />
+    <ClInclude Include="MyMFCEditBrowseCtrl.h" />
+    <ClInclude Include="MyMFCRibbonBar.h" />
+    <ClInclude Include="MyMFCRibbonStatusBar.h" />
+    <ClInclude Include="MyTreeCtrlEx.h" />
+    <ClInclude Include="PdfViewDlg.h" />
+    <ClInclude Include="SplashWnd.h" />
+    <ClInclude Include="ThumbWnd.h" />
+    <ClInclude Include="sswViewerRender.h" />
+    <ClInclude Include="MyHeaderCtrlEx.h" />
+    <ClInclude Include="MyListCtrlEx.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MyMultiThread.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PrjNewDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="sswUAVFlyQuaSys.h" />
+    <ClInclude Include="sswUAVFlyQuaSysDoc.h" />
+    <ClInclude Include="sswUAVFlyQuaSysView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StripImgWnd.h" />
+    <ClInclude Include="SysConfigureDataDlg.h" />
+    <ClInclude Include="SysConfigureParaDlg.h" />
+    <ClInclude Include="SysConfigureDlg.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WebBrowser.h" />
+    <ClInclude Include="WebBrowser2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChartAxis.cpp" />
+    <ClCompile Include="ChartAxisLabel.cpp" />
+    <ClCompile Include="ChartBarSerie.cpp" />
+    <ClCompile Include="ChartCtrl.cpp" />
+    <ClCompile Include="ChartGradient.cpp" />
+    <ClCompile Include="ChartGrid.cpp" />
+    <ClCompile Include="ChartLegend.cpp" />
+    <ClCompile Include="ChartLineSerie.cpp" />
+    <ClCompile Include="ChartObject.cpp" />
+    <ClCompile Include="ChartPointsSerie.cpp" />
+    <ClCompile Include="ChartScrollBar.cpp" />
+    <ClCompile Include="ChartSerie.cpp" />
+    <ClCompile Include="ChartSurfaceSerie.cpp" />
+    <ClCompile Include="ChartTitle.cpp" />
+    <ClCompile Include="DataChartWnd.cpp" />
+    <ClCompile Include="GradientProgressCtrl.cpp" />
+    <ClCompile Include="ImgViewDlg.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MyCreateFlyQuaPrj4ParaFile.cpp" />
+    <ClCompile Include="MyFunctions.cpp" />
+    <ClCompile Include="MyMFCEditBrowseCtrl.cpp" />
+    <ClCompile Include="MyMFCRibbonBar.cpp" />
+    <ClCompile Include="MyMFCRibbonStatusBar.cpp" />
+    <ClCompile Include="MyTreeCtrlEx.cpp" />
+    <ClCompile Include="PdfViewDlg.cpp" />
+    <ClCompile Include="SplashWnd.cpp" />
+    <ClCompile Include="ThumbWnd.cpp" />
+    <ClCompile Include="sswViewerRender.cpp" />
+    <ClCompile Include="MyHeaderCtrlEx.cpp" />
+    <ClCompile Include="MyListCtrlEx.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MyMultiThread.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PrjNewDlg.cpp" />
+    <ClCompile Include="sswUAVFlyQuaSys.cpp" />
+    <ClCompile Include="sswUAVFlyQuaSysDoc.cpp" />
+    <ClCompile Include="sswUAVFlyQuaSysView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StripImgWnd.cpp" />
+    <ClCompile Include="SysConfigureDataDlg.cpp" />
+    <ClCompile Include="SysConfigureParaDlg.cpp" />
+    <ClCompile Include="SysConfigureDlg.cpp" />
+    <ClCompile Include="WebBrowser.cpp" />
+    <ClCompile Include="WebBrowser2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sswUAVFlyQuaSys.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="sswUAVFlyQuaSys.rc" _x007B_8856F961-340A-11D0-A96B-00C04FD705A2_x007D_="CWebBrowser2" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

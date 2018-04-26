@@ -1,0 +1,221 @@
+﻿生成启动时间为 2016/8/1 16:49:43。
+     1>项目“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\libharu_app.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libharu\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\\" /Fd"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt error_handle.cpp grid_sheet.cpp main.cpp raw_image_demo.cpp text_demo.cpp
+         text_demo.cpp
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(104): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(178): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(314): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(332): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(333): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(369): warning C4305: “参数”: 从“double”到“HPDF_REAL”截断
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(369): warning C4305: “参数”: 从“double”到“HPDF_REAL”截断
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\text_demo.cpp(369): warning C4305: “参数”: 从“double”到“HPDF_REAL”截断
+         raw_image_demo.cpp
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\raw_image_demo.cpp(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\raw_image_demo.cpp(58): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+         main.cpp
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\main.cpp(38): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\main.cpp(65): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\main.cpp(65): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+         grid_sheet.cpp
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(39): warning C4305: “参数”: 从“double”到“HPDF_REAL”截断
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(51): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(52): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(58): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(59): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(62): warning C4305: “参数”: 从“double”到“HPDF_REAL”截断
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(79): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(80): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(86): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(87): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(90): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(91): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(94): warning C4305: “参数”: 从“double”到“HPDF_REAL”截断
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(107): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(109): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(128): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(130): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>c:\users\administrator\desktop\wx\网络资源\libharu\pdflib\libharu_app\grid_sheet.cpp(138): warning C4244: “参数”: 从“HPDF_UINT”转换到“HPDF_REAL”，可能丢失数据
+         error_handle.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.embed.manifest.res" "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\libharu_app.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libharu\lib libharu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\libharu_app.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\libharu_app.lib" /MACHINE:X86 "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.embed.manifest.res"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\error_handle.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\grid_sheet.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\main.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\raw_image_demo.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\text_demo.obj"
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>libharu.lib(hpdf_3dmeasure.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_3dmeasure.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_annotation.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_annotation.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_array.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_array.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_binary.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_binary.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_boolean.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_boolean.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_catalog.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_catalog.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_destination.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_destination.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_dict.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_dict.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_doc.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_doc.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_doc_png.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_doc_png.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encoder.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encoder.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encoder_cns.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encoder_cns.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encrypt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encrypt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encryptdict.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encryptdict.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_error.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_error.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_exdata.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_exdata.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_ext_gstate.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_ext_gstate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font_cid.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font_cid.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font_tt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font_tt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font_type1.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font_type1.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_base14.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_base14.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_cid.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_cid.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_cns.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_cns.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_tt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_tt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_type1.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_type1.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_gstate.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_gstate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_image.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_image.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_image_ccitt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_image_ccitt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_image_png.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_image_png.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_info.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_info.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_list.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_list.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_mmgr.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_mmgr.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_name.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_name.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_namedict.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_namedict.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_null.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_null.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_number.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_number.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_objects.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_objects.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_outline.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_outline.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_page_label.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_page_label.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_page_operator.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_page_operator.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_pages.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_pages.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_real.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_real.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_streams.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_streams.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_string.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_string.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_u3d.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_u3d.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_utils.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_utils.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_xref.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_xref.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(inffast.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(inffast.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(zutil.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(zutil.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(trees.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(trees.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(inftrees.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(inftrees.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(inflate.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(inflate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(deflate.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(deflate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(crc32.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(crc32.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(adler32.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(adler32.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngtrans.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngtrans.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngset.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngset.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngrutil.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngrutil.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngrtran.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngrtran.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngrio.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngrio.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngread.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngread.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngmem.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngmem.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngget.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngget.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngerror.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngerror.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(png.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(png.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+       Manifest:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.embed.manifest" /manifest "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.embed.manifest.res" "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\libharu_app.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libharu\lib libharu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\libharu_app.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\libharu_app.lib" /MACHINE:X86 "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.exe.embed.manifest.res"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\error_handle.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\grid_sheet.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\main.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\raw_image_demo.obj"
+         "C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\text_demo.obj"
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>libharu.lib(hpdf_3dmeasure.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_3dmeasure.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_annotation.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_annotation.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_array.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_array.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_binary.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_binary.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_boolean.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_boolean.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_catalog.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_catalog.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_destination.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_destination.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_dict.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_dict.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_doc.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_doc.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_doc_png.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_doc_png.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encoder.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encoder.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encoder_cns.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encoder_cns.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encrypt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encrypt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_encryptdict.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_encryptdict.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_error.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_error.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_exdata.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_exdata.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_ext_gstate.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_ext_gstate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font_cid.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font_cid.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font_tt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font_tt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_font_type1.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_font_type1.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_base14.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_base14.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_cid.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_cid.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_cns.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_cns.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_tt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_tt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_fontdef_type1.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_fontdef_type1.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_gstate.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_gstate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_image.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_image.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_image_ccitt.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_image_ccitt.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_image_png.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_image_png.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_info.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_info.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_list.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_list.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_mmgr.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_mmgr.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_name.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_name.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_namedict.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_namedict.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_null.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_null.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_number.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_number.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_objects.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_objects.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_outline.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_outline.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_page_label.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_page_label.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_page_operator.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_page_operator.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_pages.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_pages.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_real.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_real.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_streams.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_streams.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_string.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_string.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_u3d.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_u3d.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_utils.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_utils.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(hpdf_xref.obj) : warning LNK4099: 未找到 PDB“vc90.pdb”(使用“libharu.lib(hpdf_xref.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc90.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(inffast.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(inffast.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(zutil.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(zutil.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(trees.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(trees.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(inftrees.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(inftrees.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(inflate.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(inflate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(deflate.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(deflate.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(crc32.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(crc32.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(adler32.obj) : warning LNK4099: 未找到 PDB“zlib.pdb”(使用“libharu.lib(adler32.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\zlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngtrans.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngtrans.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngset.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngset.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngrutil.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngrutil.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngrtran.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngrtran.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngrio.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngrio.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngread.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngread.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngmem.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngmem.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngget.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngget.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(pngerror.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(pngerror.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libharu.lib(png.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libharu.lib(png.obj)”或在“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         libharu_app.vcxproj -> C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\libharu_app.exe
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.unsuccessfulbuild”。
+         正在对“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\\libharu_app\Debug\obj\libharu_app.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\wx\网络资源\libharu\pdflib\libharu_app\libharu_app.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.19

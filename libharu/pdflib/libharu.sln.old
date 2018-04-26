@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libharu", "libharu\libharu.vcproj", "{2AACC0CE-3573-48AC-ABD8-1CE6562715BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libharu_app", "libharu_app\libharu_app.vcproj", "{65FF6984-AC90-4502-B3F8-761A7FC4A242}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AACC0CE-3573-48AC-ABD8-1CE6562715BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2AACC0CE-3573-48AC-ABD8-1CE6562715BC}.Debug|Win32.Build.0 = Debug|Win32
+		{2AACC0CE-3573-48AC-ABD8-1CE6562715BC}.Release|Win32.ActiveCfg = Release|Win32
+		{2AACC0CE-3573-48AC-ABD8-1CE6562715BC}.Release|Win32.Build.0 = Release|Win32
+		{65FF6984-AC90-4502-B3F8-761A7FC4A242}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65FF6984-AC90-4502-B3F8-761A7FC4A242}.Debug|Win32.Build.0 = Debug|Win32
+		{65FF6984-AC90-4502-B3F8-761A7FC4A242}.Release|Win32.ActiveCfg = Release|Win32
+		{65FF6984-AC90-4502-B3F8-761A7FC4A242}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

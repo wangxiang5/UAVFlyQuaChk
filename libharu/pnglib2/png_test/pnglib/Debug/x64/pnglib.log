@@ -1,0 +1,52 @@
+﻿生成启动时间为 2016/9/9 19:05:35。
+     1>项目“C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\pnglib\pnglib.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\pnglib\\Debug\x64\pnglib.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\pnglib\\Debug\x64\pnglib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../zlib/ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /errorReport:prompt png.c pngerror.c pngget.c pngmem.c pngpread.c pngread.c pngrio.c pngrtran.c pngrutil.c pngset.c pngtrans.c pngwio.c pngwrite.c pngwtran.c pngwutil.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+     1>pngwrite.c(444): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : 参见“gmtime”的声明
+         pngwtran.c
+         pngwutil.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\Bin\Debug\x64\pnglib.lib) 与 Library 的 OutputFile 属性值(C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\lib\Debug\x64\pnglib.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\lib\Debug\x64\pnglib.lib" /NOLOGO .\Debug\png.obj
+         .\Debug\pngerror.obj
+         .\Debug\pngget.obj
+         .\Debug\pngmem.obj
+         .\Debug\pngpread.obj
+         .\Debug\pngread.obj
+         .\Debug\pngrio.obj
+         .\Debug\pngrtran.obj
+         .\Debug\pngrutil.obj
+         .\Debug\pngset.obj
+         .\Debug\pngtrans.obj
+         .\Debug\pngwio.obj
+         .\Debug\pngwrite.obj
+         .\Debug\pngwtran.obj
+         .\Debug\pngwutil.obj
+         pnglib.vcxproj -> C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\Bin\Debug\x64\pnglib.lib
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\pnglib\\Debug\x64\pnglib.unsuccessfulbuild”。
+         正在对“C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\pnglib\\Debug\x64\pnglib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\wx\libharu\pnglib2\png_test\pnglib\pnglib.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.96

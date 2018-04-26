@@ -1,0 +1,157 @@
+﻿生成启动时间为 2016/9/14 19:46:27。
+     1>项目“C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\libharu.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\libharu.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\libharu.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Iinclude /Ithird /Zi /nologo /W4 /WX- /Od /D WIN32 /D _LIB /D _DEBUG /D __WIN32__ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\\" /Fd"C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\vc100.pdb" /Gd /TC /errorReport:prompt src\hpdf_3dmeasure.c src\hpdf_annotation.c src\hpdf_array.c src\hpdf_binary.c src\hpdf_boolean.c src\hpdf_catalog.c src\hpdf_destination.c src\hpdf_dict.c src\hpdf_doc.c src\hpdf_doc_png.c src\hpdf_encoder.c src\hpdf_encoder_cns.c src\hpdf_encoder_cnt.c src\hpdf_encoder_jp.c src\hpdf_encoder_kr.c src\hpdf_encoder_utf.c src\hpdf_encrypt.c src\hpdf_encryptdict.c src\hpdf_error.c src\hpdf_exdata.c src\hpdf_ext_gstate.c src\hpdf_font.c src\hpdf_font_cid.c src\hpdf_font_tt.c src\hpdf_font_type1.c src\hpdf_fontdef.c src\hpdf_fontdef_base14.c src\hpdf_fontdef_cid.c src\hpdf_fontdef_cns.c src\hpdf_fontdef_cnt.c src\hpdf_fontdef_jp.c src\hpdf_fontdef_kr.c src\hpdf_fontdef_tt.c src\hpdf_fontdef_type1.c src\hpdf_gstate.c src\hpdf_image.c src\hpdf_image_ccitt.c src\hpdf_image_png.c src\hpdf_info.c src\hpdf_list.c src\hpdf_mmgr.c src\hpdf_name.c src\hpdf_namedict.c src\hpdf_null.c src\hpdf_number.c src\hpdf_objects.c src\hpdf_outline.c src\hpdf_page_label.c src\hpdf_page_operator.c src\hpdf_pages.c src\hpdf_pdfa.c src\hpdf_real.c src\hpdf_streams.c src\hpdf_string.c src\hpdf_u3d.c src\hpdf_utils.c src\hpdf_xref.c
+         hpdf_3dmeasure.c
+         hpdf_annotation.c
+         hpdf_array.c
+         hpdf_binary.c
+         hpdf_boolean.c
+         hpdf_catalog.c
+         hpdf_destination.c
+         hpdf_dict.c
+         hpdf_doc.c
+         hpdf_doc_png.c
+         hpdf_encoder.c
+         hpdf_encoder_cns.c
+         hpdf_encoder_cnt.c
+         hpdf_encoder_jp.c
+         hpdf_encoder_kr.c
+         hpdf_encoder_utf.c
+     1>src\hpdf_encoder_utf.c(2141): warning C4100: “encoder”: 未引用的形参
+     1>src\hpdf_encoder_utf.c(2149): warning C4100: “encoder”: 未引用的形参
+         hpdf_encrypt.c
+         hpdf_encryptdict.c
+         hpdf_error.c
+         hpdf_exdata.c
+         Generating Code...
+         Compiling...
+         hpdf_ext_gstate.c
+         hpdf_font.c
+         hpdf_font_cid.c
+         hpdf_font_tt.c
+         hpdf_font_type1.c
+         hpdf_fontdef.c
+         hpdf_fontdef_base14.c
+         hpdf_fontdef_cid.c
+         hpdf_fontdef_cns.c
+         hpdf_fontdef_cnt.c
+         hpdf_fontdef_jp.c
+         hpdf_fontdef_kr.c
+         hpdf_fontdef_tt.c
+         hpdf_fontdef_type1.c
+     1>src\hpdf_fontdef_type1.c(338): warning C4244: “=”: 从“__int64”转换到“HPDF_UINT”，可能丢失数据
+     1>src\hpdf_fontdef_type1.c(347): warning C4244: “=”: 从“__int64”转换到“HPDF_UINT”，可能丢失数据
+         hpdf_gstate.c
+         hpdf_image.c
+         hpdf_image_ccitt.c
+     1>src\hpdf_image_ccitt.c(171): warning C4100: “height”: 未引用的形参
+     1>src\hpdf_image_ccitt.c(426): warning C4305: “类型转换”: 从“unsigned char *”到“unsigned long”截断
+     1>src\hpdf_image_ccitt.c(485): warning C4305: “类型转换”: 从“unsigned char *”到“unsigned long”截断
+     1>src\hpdf_image_ccitt.c(642): warning C4100: “e”: 未引用的形参
+         hpdf_image_png.c
+     1>src\hpdf_image_png.c(111): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+     1>src\hpdf_image_png.c(154): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+     1>src\hpdf_image_png.c(194): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+     1>src\hpdf_image_png.c(258): warning C4267: “初始化”: 从“size_t”转换到“png_uint_32”，可能丢失数据
+     1>src\hpdf_image_png.c(350): warning C4018: “<”: 有符号/无符号不匹配
+         hpdf_info.c
+         hpdf_list.c
+         Generating Code...
+     1>c:\users\administrator\desktop\wx\ssw\ssw\libharu\pdflib\libharu\src\hpdf_image_png.c(288): warning C4701: 使用了可能未初始化的局部变量“row”
+     1>c:\users\administrator\desktop\wx\ssw\ssw\libharu\pdflib\libharu\src\hpdf_image_ccitt.c(409): warning C4706: 条件表达式内的赋值
+     1>c:\users\administrator\desktop\wx\ssw\ssw\libharu\pdflib\libharu\src\hpdf_image_ccitt.c(468): warning C4706: 条件表达式内的赋值
+         Compiling...
+         hpdf_mmgr.c
+         hpdf_name.c
+         hpdf_namedict.c
+         hpdf_null.c
+         hpdf_number.c
+         hpdf_objects.c
+         hpdf_outline.c
+         hpdf_page_label.c
+         hpdf_page_operator.c
+         hpdf_pages.c
+         hpdf_pdfa.c
+     1>src\hpdf_pdfa.c(107): warning C4267: “函数”: 从“size_t”转换到“HPDF_UINT”，可能丢失数据
+         hpdf_real.c
+         hpdf_streams.c
+     1>src\hpdf_streams.c(811): warning C4267: “=”: 从“size_t”转换到“HPDF_UINT”，可能丢失数据
+     1>src\hpdf_streams.c(978): warning C4267: “=”: 从“size_t”转换到“HPDF_UINT”，可能丢失数据
+         hpdf_string.c
+         hpdf_u3d.c
+         hpdf_utils.c
+         hpdf_xref.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\Administrator\Desktop\wx\ssw\ssw\Bin\Debug\x64\libharu.lib) 与 Library 的 OutputFile 属性值(C:\Users\Administrator\Desktop\wx\ssw\ssw\lib\Debug\x64\libharu.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Administrator\Desktop\wx\ssw\ssw\lib\Debug\x64\libharu.lib" pnglib.lib zlib.lib /LIBPATH:lib\Debug\x64 /NOLOGO C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_3dmeasure.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_annotation.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_array.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_binary.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_boolean.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_catalog.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_destination.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_dict.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_doc.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_doc_png.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encoder.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encoder_cns.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encoder_cnt.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encoder_jp.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encoder_kr.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encoder_utf.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encrypt.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_encryptdict.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_error.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_exdata.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_ext_gstate.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_font.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_font_cid.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_font_tt.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_font_type1.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_base14.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_cid.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_cns.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_cnt.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_jp.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_kr.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_tt.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_fontdef_type1.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_gstate.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_image.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_image_ccitt.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_image_png.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_info.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_list.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_mmgr.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_name.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_namedict.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_null.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_number.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_objects.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_outline.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_page_label.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_page_operator.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_pages.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_pdfa.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_real.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_streams.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_string.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_u3d.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_utils.obj
+         C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\hpdf_xref.obj
+         libharu.vcxproj -> C:\Users\Administrator\Desktop\wx\ssw\ssw\Bin\Debug\x64\libharu.lib
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\libharu.unsuccessfulbuild”。
+         正在对“C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\\Debug\x64\libharu.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\wx\ssw\ssw\libharu\pdflib\libharu\libharu.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:30.49

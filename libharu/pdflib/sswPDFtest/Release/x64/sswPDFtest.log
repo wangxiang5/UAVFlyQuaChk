@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/9/9 17:12:44。
+     1>项目“C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\sswPDFtest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\\Release\x64\sswPDFtest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\wx\libharu\pdflib\Bin\Release\x64\sswPDFtest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Administrator\Desktop\wx\libharu\pdflib\lib\Release\x64\ sswPDFLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\\Release\x64\sswPDFtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\wx\libharu\pdflib\Bin\Release\x64\sswPDFtest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\wx\libharu\pdflib\Bin\Release\x64\sswPDFtest.lib" /MACHINE:X64 C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\\Release\x64\sswPDFtest.obj
+         C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\\Release\x64\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         sswPDFtest.vcxproj -> C:\Users\Administrator\Desktop\wx\libharu\pdflib\Bin\Release\x64\sswPDFtest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Desktop\wx\libharu\pdflib\Bin\Release\x64\sswPDFtest.exe;#1" /manifest C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\\Release\x64\sswPDFtest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\\Release\x64\sswPDFtest.unsuccessfulbuild”。
+         正在对“C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\\Release\x64\sswPDFtest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\wx\libharu\pdflib\sswPDFtest\sswPDFtest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.28

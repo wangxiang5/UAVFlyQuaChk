@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312"?>
+<UAV_Flight_Quality_Check>
+	<Project>
+		<AutoManageImages>0</AutoManageImages>
+		<ImageData>
+			<ImageNumber>193</ImageNumber>
+			<InvalidNumber>0</InvalidNumber>
+			<StripNumber>0</StripNumber>
+		</ImageData>
+		<CameraParas>
+			<WithFile>1</WithFile>
+			<Label>1111</Label>
+			<Format_x0y0>pix</Format_x0y0>
+			<Format_f>pix</Format_f>
+			<Format_pixelsize>mm</Format_pixelsize>
+			<x0>0.000000</x0>
+			<y0>0.000000</y0>
+			<f>4805.797619 4805.797619 4805.797619</f>
+			<pixelsize>0.004200</pixelsize>
+			<distortion_paras>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</distortion_paras>
+		</CameraParas>
+		<PosParas>
+			<Format_POS>XYZ</Format_POS>
+			<Format_POK>deg</Format_POK>
+			<Format_LBH>deg</Format_LBH>
+		</PosParas>
+	</Project>
+	<ImportData>New_Prj_imp.xml</ImportData>
+	<FlyQuaPara>
+		<MinOverlapY>60.00%</MinOverlapY>
+		<MinOverlapX>30.00%</MinOverlapX>
+		<MaxHeiDifInArea>50.00</MaxHeiDifInArea>
+		<MaxHeiDifLinkInStrip>30.00</MaxHeiDifLinkInStrip>
+		<MaxStripBlend>3.00%</MaxStripBlend>
+		<MaxPitch>15.00</MaxPitch>
+		<MaxPitch10Per>10.00%</MaxPitch10Per>
+		<MaxYaw>5.00</MaxYaw>
+		<MaxYaw15Per>10.00%</MaxYaw15Per>
+		<MaxYaw20Num>3</MaxYaw20Num>
+		<nMatchPtNumThresold>1</nMatchPtNumThresold>
+	</FlyQuaPara>
+</UAV_Flight_Quality_Check>

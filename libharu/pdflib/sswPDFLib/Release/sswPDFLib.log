@@ -1,0 +1,276 @@
+﻿  stdafx.cpp
+  sswPDFLib.cpp
+sswPDFLib.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+sswPDFLib.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+sswPDFLib.cpp(39): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(73): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(73): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(73): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(73): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(84): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(197): warning C4244: '=' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(198): warning C4244: '=' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(210): warning C4244: 'initializing' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(214): warning C4244: '=' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(217): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(220): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(220): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(221): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(221): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(232): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+sswPDFLib.cpp(235): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+sswPDFLib.cpp(264): warning C4244: 'return' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(278): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(300): warning C4244: 'initializing' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(301): warning C4244: '=' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(303): warning C4244: '=' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(304): warning C4244: '=' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(308): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(312): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(312): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(326): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(340): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(299) : see declaration of 'access'
+sswPDFLib.cpp(342): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+sswPDFLib.cpp(354): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+sswPDFLib.cpp(357): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(362): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(365): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(425): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(449): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+sswPDFLib.cpp(450): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(451): warning C4244: '=' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(468): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(497): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(500): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(509): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(509): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(510): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(510): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(517): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(517): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(518): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(518): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(524): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(526): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(526): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(527): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(527): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(536): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(536): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(537): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(537): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(540): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(540): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(541): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(541): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(571): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(571): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(572): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(572): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(575): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(575): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(576): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(576): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(581): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(592): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(597): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(608): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(660): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(689): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(692): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(701): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(701): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(702): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(702): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(709): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(709): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(710): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(710): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(716): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(718): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(718): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(719): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(719): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(728): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(728): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(729): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(729): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(732): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(732): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(733): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(733): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(763): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(763): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(764): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(764): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(767): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(767): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(768): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(768): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(773): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(783): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(793): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(806): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+sswPDFLib.cpp(811): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(838): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _cprintf. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(121) : see declaration of 'cprintf'
+sswPDFLib.cpp(893): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+sswPDFLib.cpp(899): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+sswPDFLib.cpp(915): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(915): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(915): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(917): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(917): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(917): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(917): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(918): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(918): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(918): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(918): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(919): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(919): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(919): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(919): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(920): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(920): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(920): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(920): warning C4244: 'argument' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+sswPDFLib.cpp(950): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(951): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+sswPDFLib.cpp(952): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(957): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(957): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(958): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(958): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(959): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(960): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(972): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(973): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+sswPDFLib.cpp(974): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(979): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(979): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(980): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(980): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(981): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(982): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(1004): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+sswPDFLib.cpp(1005): warning C4244: 'initializing' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(1007): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1007): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1008): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1008): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1009): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(1010): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(1021): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+sswPDFLib.cpp(1024): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+sswPDFLib.cpp(1025): warning C4244: 'initializing' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(1029): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1029): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1030): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1030): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+sswPDFLib.cpp(1031): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(1032): warning C4305: 'argument' : truncation from 'double' to 'HPDF_REAL'
+sswPDFLib.cpp(1041): warning C4244: 'argument' : conversion from 'HPDF_REAL' to 'int', possible loss of data
+sswPDFLib.cpp(856): warning C4101: 'nPosYTitle' : unreferenced local variable
+     Creating library E:\0_G5Group\02_program\00_ssw\ssw\lib\Release\x64\sswPDFLib.lib and object E:\0_G5Group\02_program\00_ssw\ssw\lib\Release\x64\sswPDFLib.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+e:\0_g5group\02_program\00_ssw\ssw\libharu\pdflib\sswpdflib\sswpdflib.cpp(1044): warning C4715: 'CsswPdf::AddChart' : not all control paths return a value
+  Finished generating code
+libharu.lib(hpdf_page_operator.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_page_operator.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_doc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_doc.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_fontdef_cns.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_fontdef_cns.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_fontdef_cnt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_fontdef_cnt.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_encoder_cnt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_encoder_cnt.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_encoder_cns.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_encoder_cns.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_pages.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_pages.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_doc_png.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_doc_png.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_image.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_ext_gstate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_ext_gstate.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_error.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_error.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_font.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_font.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_streams.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_streams.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_utils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_utils.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_gstate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_gstate.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_dict.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_dict.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_encoder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_encoder.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_list.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_list.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_info.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_info.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_catalog.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_catalog.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_xref.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_xref.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_mmgr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_mmgr.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_font_type1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_font_type1.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_null.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_null.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_fontdef_tt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_fontdef_tt.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_namedict.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_namedict.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_destination.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_destination.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_fontdef.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_fontdef.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_image_ccitt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_image_ccitt.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_outline.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_outline.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_array.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_array.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_fontdef_base14.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_fontdef_base14.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_binary.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_binary.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_font_tt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_font_tt.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_fontdef_type1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_fontdef_type1.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_page_label.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_page_label.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_encryptdict.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_encryptdict.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_string.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_string.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_font_cid.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_font_cid.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_fontdef_cid.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_fontdef_cid.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_3dmeasure.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_3dmeasure.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_annotation.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_annotation.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_number.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_number.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_exdata.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_exdata.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_u3d.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_u3d.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_name.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_name.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_image_png.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_image_png.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_boolean.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_boolean.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_encrypt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_encrypt.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_objects.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_objects.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(hpdf_real.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(hpdf_real.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(zutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(zutil.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(trees.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(trees.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(inftrees.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(inftrees.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(inflate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(inflate.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(inffast.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(inffast.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(deflate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(deflate.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(crc32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(crc32.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(compress.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(compress.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(adler32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(adler32.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngtrans.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngtrans.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngset.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngset.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngrutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngrutil.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngrtran.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngrtran.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngrio.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngrio.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngread.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngmem.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngmem.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngget.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngget.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(pngerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(pngerror.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+libharu.lib(png.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libharu.lib(png.obj)' or at 'E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\vc100.pdb'; linking object as if no debug info
+  sswPDFLib.vcxproj -> E:\0_G5Group\02_program\00_ssw\ssw\Bin\Release\x64\sswPDFLib.dll
+  已复制         1 个文件。
+  已复制         1 个文件。
