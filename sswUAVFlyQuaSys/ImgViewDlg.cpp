@@ -86,7 +86,7 @@ void CImgViewDlg::InitImgViewInfo()
 		m_RectCln.Height()*1.0/m_RectImg.Height())*0.9;
 	ResetRectCln2Geo();
 	m_fZoomRateCln2GeoMin = m_fZoomRateCln2Geo/10;
-	m_fZoomRateCln2GeoMax = m_fZoomRateCln2Geo*10;
+	m_fZoomRateCln2GeoMax = m_fZoomRateCln2Geo*1000;
 	uImg.CloseImg();
 }
 BOOL CImgViewDlg::OnInitDialog()

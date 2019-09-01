@@ -402,7 +402,7 @@ bool CsswImgRender::CreateTexture(CString strImgPath)
 	glGenTextures(1,&m_nIdTexture);
 	glBindTexture(GL_TEXTURE_2D,m_nIdTexture);
 	glEnable(GL_TEXTURE_2D);
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, SIZE_IMG_TEXTURE, SIZE_IMG_TEXTURE, 0, GL_RGBA, GL_UNSIGNED_BYTE, 0);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, nCols, nRows, 0, GL_RGBA, GL_UNSIGNED_BYTE, 0);
 	//…Ë÷√Œ∆¿Ìπ˝¬À
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -421,6 +421,8 @@ bool CsswImgRender::CreateTexture(CString strImgPath)
 		m_nColTexture=1.0*nCols/nRows*SIZE_IMG_TEXTURE;
 		m_nRowTexture=SIZE_IMG_TEXTURE;
 	}
+	m_nColTexture = nCols;
+	m_nRowTexture = nRows;
 	CloseImg();
 	return true;
 }

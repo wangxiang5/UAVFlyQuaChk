@@ -1,7 +1,7 @@
 #pragma once
-
 #include "opengl/glew.h"
 #include "opengl/glut.h"
+
 #include "MyFunctions.h"
 enum sswVectorType
 {// ∏¡ø¿‡–Õ

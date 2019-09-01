@@ -56,7 +56,7 @@ LRESULT CThumbWnd::OnMsgCreateImgTextures(WPARAM wParam, LPARAM lParam)
 	CMainFrame *pMain = (CMainFrame *)wParam;
 	g_wndProgressCtrl.ShowWindow(true);
 	bool bMakeCurrent = false;
-	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRCSharing); } while (!bMakeCurrent);
+	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRC); } while (!bMakeCurrent);
 	vector<Point3D> vPt3d(4);
 	for (int i = 0; i<vecImg.size(); i++)
 	{
@@ -101,7 +101,7 @@ LRESULT CThumbWnd::OnMsgCreateAdjPtsVBO(WPARAM wParam, LPARAM lParam)
 		*(pVertex+2*i+1)=vecAdjPts[i].Y;	
 	}
 	bool bMakeCurrent = false;
-	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRCSharing); } while (!bMakeCurrent);
+	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRC); } while (!bMakeCurrent);
 	m_AdjPtRender.CreateVectorVBO(vecAdjPts.size(),vPoint,true);
 	m_AdjPtRender.FillVectorVBO(pVertex,pColor,vecAdjPts.size());
 
@@ -247,7 +247,7 @@ LRESULT CThumbWnd::OnMsgFillRepVBO(WPARAM wParam, LPARAM lParam)
 		break;
 	}
  	bool bMakeCurrent = false;
- 	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRCSharing); }
+ 	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRC); }
 	while (!bMakeCurrent);
 	InitRepView();
 	m_RepRender.FillVectorVBO(pV,pC,nPosNum);

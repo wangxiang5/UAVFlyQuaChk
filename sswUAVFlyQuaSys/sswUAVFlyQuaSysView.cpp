@@ -594,7 +594,7 @@ void CsswUAVFlyQuaSysView::ShowSeletctedStrip()
 void CsswUAVFlyQuaSysView::ShowMissArea()
 {
 	bool bMakeCurrent = false;
-	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRCSharing); } while (!bMakeCurrent);
+	do { bMakeCurrent = wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRC); } while (!bMakeCurrent);
 	vector<vector<Point3D>> vvAreaVertex = m_pDoc->m_FlyQuaPrj.GetAreaVertex();
 	for(int i = 0; i<m_vecCqExtRingRender.size(); i++) m_vecCqExtRingRender[i].DeleteVBO();
 	m_vecCqExtRingRender.resize(vvAreaVertex.size());
@@ -899,6 +899,97 @@ void CsswUAVFlyQuaSysView::CreateOverlapRenderTex(vector<vector<Point3D>> &vvImg
 
 
 }
+
+void CsswUAVFlyQuaSysView::CreateKeyNodeRenterVBO()
+{
+	m_KeyNodePointRender.CreateVectorVBO(m_nKeyNodeNum, vPoint, true);
+	m_vecKeyNodeLineRender.resize(m_nNodeLevel + m_nNodeLevel - 1);
+	for (int i = 0; i<m_nNodeLevel + m_nNodeLevel -1; i++)
+	{
+		m_vecKeyNodeLineRender[i].CreateVectorVBO(m_nNodeLevel, vLine, true);
+	}
+}
+
+void CsswUAVFlyQuaSysView::FillKeyNodeRenderVBO()
+{
+	GLdouble* pv = new GLdouble[m_nKeyNodeNum * 2];
+	GLdouble* pc = new GLdouble[m_nKeyNodeNum * 4];
+	GLdouble cx = m_RectCln2Geo.CenterPoint().x;
+	GLdouble cy = m_RectCln2Geo.CenterPoint().y;
+	GLdouble sw = m_RectCln2Geo.Width()*0.8/2;
+	GLdouble sh = m_RectCln2Geo.Height()*0.8/2;
+	GLdouble r = sqrt(sw*sw + sh*sh);
+	int nNodeLevel = m_nNodeLevel; double pi = 3.1415926;
+	int count = 0;
+	//for line
+	GLdouble *pvLine = new GLdouble[m_nNodeLevel * 2];
+	GLdouble *pcLine = new GLdouble[m_nNodeLevel * 4];
+	for (int i = 0; i < nNodeLevel; i++)
+	{
+		double angle = i * pi * 2 / m_nNodeLevel;
+		for (int j = 0; j<m_nNodeLevel-1; j++)
+		{
+			GLdouble x = cx + r*(j + 1) / nNodeLevel*cos(angle);
+			GLdouble y = cy - r*(j + 1) / nNodeLevel*sin(angle);
+			*(pv + 2 * count + 0) = x;
+			*(pv + 2 * count + 1) = y;
+			*(pc + 4 * count + 0) = 150;
+			*(pc + 4 * count + 1) = 150;
+			*(pc + 4 * count + 2) = 150;
+			*(pc + 4 * count + 3) = 255;
+			count++;
+		}
+		// for line
+		for (int j = 0; j<m_nNodeLevel; j++)
+		{
+			GLdouble x = cx + r*j / nNodeLevel*cos(angle);
+			GLdouble y = cy - r*j / nNodeLevel*sin(angle);
+			*(pvLine + 2 * j + 0) = x;
+			*(pvLine + 2 * j + 1) = y;
+			*(pcLine + 4 * j + 0) = 0.2;
+			*(pcLine + 4 * j + 1) = 0.2;
+			*(pcLine + 4 * j + 2) = 0.2;
+			*(pcLine + 4 * j + 3) = 255;
+		}
+		m_vecKeyNodeLineRender[i].FillVectorVBO(pvLine, pcLine, m_nNodeLevel);
+	}
+	*(pv + 2 * count + 0) = cx;
+	*(pv + 2 * count + 1) = cy;
+	*(pc + 4 * count + 0) = 150;
+	*(pc + 4 * count + 1) = 150;
+	*(pc + 4 * count + 2) = 150;
+	*(pc + 4 * count + 3) = 255;
+	m_KeyNodePointRender.FillVectorVBO(pv, pc, m_nKeyNodeNum);
+
+
+	// for line-cirle
+	for (int i = 1; i<m_nNodeLevel; i++)
+	{
+		count = 0;
+		for (int j = 0; j < m_nNodeLevel; j++)
+		{
+			double angle = j * pi * 2 / m_nNodeLevel;
+			GLdouble x = cx + r*i / nNodeLevel*cos(angle);
+			GLdouble y = cy - r*i / nNodeLevel*sin(angle);
+			*(pvLine + 2 * count + 0) = x;
+			*(pvLine + 2 * count + 1) = y;
+			*(pcLine + 4 * count + 0) = 0.2;
+			*(pcLine + 4 * count + 1) = 0.2;
+			*(pcLine + 4 * count + 2) = 0.2;
+			*(pcLine + 4 * count + 3) = 255;
+			count++;
+		}
+		m_vecKeyNodeLineRender[m_nNodeLevel + i - 1].FillVectorVBO(pvLine, pcLine, m_nNodeLevel);
+	}
+
+
+	
+	delete[]pv; pv = NULL;
+	delete[]pc; pc = NULL;
+	delete[]pvLine; pvLine = NULL;
+	delete[]pcLine; pcLine = NULL;
+}
+
 void CsswUAVFlyQuaSysView::ShowBackGround()
 {
 	
@@ -943,9 +1034,9 @@ int CsswUAVFlyQuaSysView::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	// TODO:  在此添加您专用的创建代码
 	m_pDC = new CClientDC(this);//初始化OPENGL设置定时器
 	SetupPixelFormat(m_pDC, m_hPalette);
-	InitOpenGL(g_pRCSharing, m_pDC, m_hPalette);
+	//InitOpenGL(g_pRCSharing, m_pDC, m_hPalette);
 	InitOpenGL(g_pRC, m_pDC, m_hPalette);
-	wglShareLists(g_pRCSharing, g_pRC);
+	//wglShareLists(g_pRCSharing, g_pRC);
 	wglMakeCurrent(m_pDC->GetSafeHdc(), g_pRC);
 	glewInit();
 
@@ -994,10 +1085,28 @@ BOOL CsswUAVFlyQuaSysView::OnEraseBkgnd(CDC* pDC)
 	glLoadIdentity();    // 重置当前指定的矩阵为单位矩阵
 	ResetRectCln2Geo();
 	glOrtho(m_RectCln2Geo.left, m_RectCln2Geo.right, m_RectCln2Geo.bottom, m_RectCln2Geo.top, -1, 1);
-	float A[4]={0.5,0.5,0.5,0.5};
-	float R[4] = {200.0/255,200.0/255,200.0/255,155.0/255};
-	SetBackColor(m_BkgrdRender,m_RectCln2Geo,R,R,R,A,false);
-	float G[4],B[4];
+	float A[4]={0.5,0.5, 0.5,0.5 };
+	float R[4] = {30.0/255,0,160.0/255,217.0/255 };
+	float G[4] = { 138.0/255,130.0 / 255,61.0/255,64.0/255 };
+	float B[4] = { 0,156.0/255,1,0};
+	SetBackColor(m_BkgrdRender,m_RectCln2Geo,R,G,B,A,true);
+	if (!m_KeyNodePointRender.IsVBOFilled())
+	{
+		CreateKeyNodeRenterVBO();
+		FillKeyNodeRenderVBO();
+	}
+	if (m_KeyNodePointRender.IsVBOFilled())
+	{
+		for (int i = 0; i<m_nNodeLevel+m_nNodeLevel-1; i++)
+		{
+			m_vecKeyNodeLineRender[i].Display(2);
+		}
+		m_KeyNodePointRender.Display(6);
+	}
+	EndDraw(m_pDC);
+	return TRUE;
+
+
 	if(m_bViewImgArea)
 	{		
 		glEnable(GL_BLEND);

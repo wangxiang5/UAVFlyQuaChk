@@ -101,7 +101,10 @@ public:
 	double  m_LineParaA;
 	double  m_LineParaB;
 	double  m_LineParaC;
-
+	CsswViewerRender m_KeyNodePointRender;
+	vector<CsswViewerRender> m_vecKeyNodeLineRender;
+	static const int m_nNodeLevel = 4;
+	static const int m_nKeyNodeNum = m_nNodeLevel * m_nNodeLevel - m_nNodeLevel + 1;
 	CsswViewerRender m_BkgrdRender;   //背景
 	CsswViewerRender m_PosRender;
 	CsswViewerRender m_PosRectRender;
@@ -169,6 +172,7 @@ public:
 		m_PosRender.DeleteVBO();
 		m_PosRectRender.DeleteVBO();
 		m_ImgAreaRender.DeleteVBO();
+		m_KeyNodePointRender.DeleteVBO();
 	}
 	CPoint ptGeo2Cln(Point2D& ptGeo);
 	Point2D ptCln2Geo(CPoint& ptCln);
@@ -190,6 +194,8 @@ protected:
 	void CreateImgAreaRenderVBO(vector<Point3D> &vecImgAreaVertex,CsswViewerRender &render);
 	void CreateMissAreaRenderVBO(vector<vector<Point3D>> &vvMissAreaVertex,vector<CsswViewerRender> &vRender);
 	void CreateOverlapRenderTex(vector<vector<Point3D>> &vvImgArea, CsswImgRender &render,float &fOverlap4Ratio);
+	void CreateKeyNodeRenterVBO();
+	void FillKeyNodeRenderVBO();
 	// 重写
 public:
 	virtual void OnDraw(CDC* pDC);  // 重写以绘制该视图
