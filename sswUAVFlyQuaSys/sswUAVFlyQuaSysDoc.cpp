@@ -860,6 +860,15 @@ IMPLEMENT_DYNCREATE(CsswUAVFlyQuaSysDoc, CDocument)
 		CMFCRibbonEdit* pEdit = NULL; CString str;
 		pEdit = DYNAMIC_DOWNCAST(CMFCRibbonEdit,m_pMain->m_wndRibbonBar.FindByID(ID_EDIT_MEAN_HEIGHT));
 		m_dMeanHei=atof(pEdit->GetEditText());
+		m_pView->m_nNodeLevel = int(m_dMeanHei);
+		m_pView->m_nKeyNodeNum = m_pView->m_nNodeLevel * m_pView->m_nNodeLevel - m_pView->m_nNodeLevel + 1;
+		m_pView->m_KeyNodePointRender.DeleteVBO();
+		for (int i = 0; i<m_pView->m_vecKeyNodeLineRender.size(); i++)
+		{
+			m_pView->m_vecKeyNodeLineRender[i].DeleteVBO();
+		}
+		vector<CsswViewerRender>().swap(m_pView->m_vecKeyNodeLineRender);
+		m_pView->Invalidate();
 	}
 	void CsswUAVFlyQuaSysDoc::OnUpdateEditMeanHeight(CCmdUI *pCmdUI)
 	{

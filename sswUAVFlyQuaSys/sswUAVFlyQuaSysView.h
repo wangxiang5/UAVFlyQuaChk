@@ -103,8 +103,8 @@ public:
 	double  m_LineParaC;
 	CsswViewerRender m_KeyNodePointRender;
 	vector<CsswViewerRender> m_vecKeyNodeLineRender;
-	static const int m_nNodeLevel = 4;
-	static const int m_nKeyNodeNum = m_nNodeLevel * m_nNodeLevel - m_nNodeLevel + 1;
+	int m_nNodeLevel;
+	int m_nKeyNodeNum;
 	CsswViewerRender m_BkgrdRender;   //±³¾°
 	CsswViewerRender m_PosRender;
 	CsswViewerRender m_PosRectRender;

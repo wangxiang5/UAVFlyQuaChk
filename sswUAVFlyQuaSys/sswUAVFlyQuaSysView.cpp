@@ -117,6 +117,8 @@ CsswUAVFlyQuaSysView::CsswUAVFlyQuaSysView()
 	m_bSetImg2Valid = true;
 	m_pData=NULL;
 	m_nStripIdxSelected = InvalidValue;
+	m_nNodeLevel = 4;
+	m_nKeyNodeNum = m_nNodeLevel * m_nNodeLevel - m_nNodeLevel + 1;
 }
 
 CsswUAVFlyQuaSysView::~CsswUAVFlyQuaSysView()
