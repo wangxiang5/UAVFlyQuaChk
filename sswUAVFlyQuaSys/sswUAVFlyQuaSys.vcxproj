@@ -204,6 +204,8 @@
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
     <None Include="information.txt" />
+    <None Include="NodeManager.cpp" />
+    <None Include="NodeManager.h" />
     <None Include="ReadMe.txt" />
     <None Include="res\bmp.bmp" />
     <None Include="res\bmp_large_button.bmp" />

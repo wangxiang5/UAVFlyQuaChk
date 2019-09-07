@@ -26,6 +26,8 @@
 #include <omp.h>
 #include "GradientProgressCtrl.h"
 #include "conio.h"
+#include "NodeManager.h"
+
 //#include "StripSorting.h"
 //#pragma comment(lib,"StripSorting.lib") stripsorting≤‚ ‘
 
@@ -1030,6 +1032,10 @@ void CsswUAVFlyQuaSysView::ShowBackGround()
 }
 int CsswUAVFlyQuaSysView::OnCreate(LPCREATESTRUCT lpCreateStruct)
 {
+
+	int a = 11.9 / 2;
+	CString tr; tr.Format("11.9/2=%d", a);
+	AfxMessageBox(tr); 
 	if (CView::OnCreate(lpCreateStruct) == -1)
 		return -1;
 

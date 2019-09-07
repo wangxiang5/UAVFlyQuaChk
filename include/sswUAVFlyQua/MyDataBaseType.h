@@ -27,7 +27,9 @@ public:
 	Point2_(){x=InvalidValue;y=InvalidValue;}
 	//		: Point2_(DataType(InvalidValue), DataType(InvalidValue)){}
 	Point2_(const DataType _x, const DataType _y)
-		: x(_x), y(_y){}
+		: x(_x), y(_y) {}
+	Point2_(CPoint pt)
+		: x(pt.x), y(pt.y) {}
 	Point2_(const MiType &p)
 		: x(p.x), y(p.y){}
 	~Point2_(){}
@@ -110,6 +112,9 @@ public:
 	}
 	MiType operator*(MiType gt){
 		return Point3_(X *= gt.X, Y *= gt.Y, Z *= gt.Z);
+	}
+	MiType operator*(DataType k) {
+		return Point3_(X *= k, Y *= k, Z *= a);
 	}
 	MiType operator/(DataType a){
 		if (a != DataType(0))

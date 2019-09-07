@@ -106,6 +106,12 @@
     <None Include="res\MainFrame.bmp">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="NodeManager.h">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="NodeManager.cpp">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sswUAVFlyQuaSys.h">
